@@ -37,7 +37,9 @@ public class LoginTest {
                 "\"ALLOW_MARKETING_ACTIVITIES\"\n" +
                 "]\n" +
                 "}";
-        given().body(requestBode).header("x-mobile-client", "de.mobile.cis")
+        given().body(requestBode).header("User-Agent", "PostmanRuntime/7.33.0")
+                .headers("content-type", "application/json; charset=utf-8")
+                .header("x-mobile-client", "de.mobile.cis")
                 .when().post("https://www.mobile.de/api/my/account")
                 .then().statusCode(400)
                 .assertThat().body("[0].field", equalTo("email"))
