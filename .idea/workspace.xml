@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9f9be51-140e-4529-93e5-6b83ea5d96d7" name="Changes" comment="add plugins for jenkins" />
+    <list default="true" id="b9f9be51-140e-4529-93e5-6b83ea5d96d7" name="Changes" comment="add plugins for jenkins">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,42 +46,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.LoginTest.checkloginWithEmptyEmailAndEnyPassword">
-    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="taf-mobile-de" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="api.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="api" />
-      <option name="MAIN_CLASS_NAME" value="api.LoginTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTest.checkloginWithEmptyEmailAndEnyPassword" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="taf-mobile-de" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="api.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="api" />
-      <option name="MAIN_CLASS_NAME" value="api.LoginTest" />
-      <option name="METHOD_NAME" value="checkloginWithEmptyEmailAndEnyPassword" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.OpenWebSiteTest">
     <configuration name="LoginTest.checkloginWithEmptyPasswordAndAnyEmail" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="taf-mobile-de" />
       <extension name="coverage">
@@ -97,7 +65,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OpenWebSiteTest.checkOpeningWebSite" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTest.checkloginWithInvalidCredentials" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="taf-mobile-de" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api" />
+      <option name="MAIN_CLASS_NAME" value="api.LoginTest" />
+      <option name="METHOD_NAME" value="checkloginWithInvalidCredentials" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OpenWebSiteTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="taf-mobile-de" />
       <extension name="coverage">
         <pattern>
@@ -107,8 +93,24 @@
       </extension>
       <option name="PACKAGE_NAME" value="api" />
       <option name="MAIN_CLASS_NAME" value="api.OpenWebSiteTest" />
-      <option name="METHOD_NAME" value="checkOpeningWebSite" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectCarTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="taf-mobile-de" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api" />
+      <option name="MAIN_CLASS_NAME" value="api.SelectCarTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -135,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginTest.checkloginWithEmptyEmailAndEnyPassword" />
-        <item itemvalue="TestNG.SelectCarTest.checkSelectingCarById" />
-        <item itemvalue="TestNG.OpenWebSiteTest.checkOpeningWebSite" />
+        <item itemvalue="TestNG.OpenWebSiteTest" />
         <item itemvalue="TestNG.LoginTest.checkloginWithEmptyPasswordAndAnyEmail" />
-        <item itemvalue="TestNG.LoginTest" />
+        <item itemvalue="TestNG.SelectCarTest" />
+        <item itemvalue="TestNG.SelectCarTest.checkSelectingCarById" />
+        <item itemvalue="TestNG.LoginTest.checkloginWithInvalidCredentials" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +203,21 @@
       <option name="project" value="LOCAL" />
       <updated>1697271779701</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add plugins for jenkins">
+      <created>1697272261772</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1697272261772</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add plugins for jenkins">
+      <created>1697272356184</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1697272356184</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
