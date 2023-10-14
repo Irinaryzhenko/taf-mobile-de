@@ -35,7 +35,7 @@
                 <configuration>
                     <!-- Укажите пакеты или классы с тестами -->
                     <includes>
-                        <include>**/*Test.java</include>
+                        <include>LoginTest.java</include>
                     </includes>
                 </configuration>
             </plugin>

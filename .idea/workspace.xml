@@ -187,7 +187,21 @@
       <option name="project" value="LOCAL" />
       <updated>1697270401112</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add plugins for jenkins">
+      <created>1697271722647</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1697271722647</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add plugins for jenkins">
+      <created>1697271779701</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1697271779701</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
