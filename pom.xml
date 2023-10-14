@@ -53,8 +53,7 @@
             </execution>
         </executions>
         <configuration>
-            <!-- Укажите полное имя класса, который вы хотите выполнить -->
-            <mainClass>com.example.LoginTest</mainClass>
+            <mainClass>src/test/java/api/LoginTest.java</mainClass>
         </configuration>
     </plugin>
 </plugins>
