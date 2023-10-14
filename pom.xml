@@ -28,3 +28,34 @@
     </dependencies>
 
 </project>
+<build>
+<plugins>
+    <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.0.0-M5</version>
+        <configuration>
+            <!-- Укажите пакеты или классы с тестами -->
+            <includes>
+                <include>**/Test.java</include>
+            </includes>
+        </configuration>
+    </plugin>
+    <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>exec-maven-plugin</artifactId>
+        <version>3.0.0</version>
+        <executions>
+            <execution>
+                <goals>
+                    <goal>java</goal>
+                </goals>
+            </execution>
+        </executions>
+        <configuration>
+            <!-- Укажите полное имя класса, который вы хотите выполнить -->
+            <mainClass>com.example.LoginTest</mainClass>
+        </configuration>
+    </plugin>
+</plugins>
+</build>
