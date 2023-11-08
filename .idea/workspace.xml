@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9f9be51-140e-4529-93e5-6b83ea5d96d7" name="Changes" comment="add plugins for jenkins">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j2.xml" afterDir="false" />
+    <list default="true" id="b9f9be51-140e-4529-93e5-6b83ea5d96d7" name="Changes" comment="refactor code">
+      <change afterPath="$PROJECT_DIR$/src/test/allure-properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/api-testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/api/OpenWebSiteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/OpenWebSiteTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/api/SelectCarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/SelectCarTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/log4j2.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +54,7 @@
       <recent name="C:\Users\User\Desktop\Automation\taf-mobile-de\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SelectCarTest.checkSelectingCarById">
+  <component name="RunManager" selected="TestNG.OpenWebSiteTest.checkOpeningWebSite">
     <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="taf-mobile-de" />
       <extension name="coverage">
@@ -144,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SelectCarTest.checkSelectingCarById" />
         <item itemvalue="TestNG.OpenWebSiteTest.checkOpeningWebSite" />
-        <item itemvalue="TestNG.OpenWebSiteTest" />
-        <item itemvalue="TestNG.SelectCarTest" />
         <item itemvalue="TestNG.LoginTest" />
+        <item itemvalue="TestNG.OpenWebSiteTest" />
+        <item itemvalue="TestNG.SelectCarTest.checkSelectingCarById" />
+        <item itemvalue="TestNG.SelectCarTest" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697289965109</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="refactor code">
+      <created>1699436557002</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1699436557002</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -247,8 +254,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add tests" />
-    <MESSAGE value="refactor code" />
     <MESSAGE value="add plugins for jenkins" />
-    <option name="LAST_COMMIT_MESSAGE" value="add plugins for jenkins" />
+    <MESSAGE value="refactor code" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor code" />
   </component>
 </project>
